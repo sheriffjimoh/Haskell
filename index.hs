@@ -1,4 +1,5 @@
 main = do 
-    putStrLn "Hello World!"
-    putStrLn "Hello SHeriff"
-    putStrLn "Hello Jimoh"
+    let name = "Sheriff"
+    putStrLn (name ++" received some amazing news")
+    putStrLn ("Everyone was wondering what it was ")
+    putStrLn (name ++" didnot disclose what that was")
