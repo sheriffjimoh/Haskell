@@ -1,6 +1,6 @@
  
 -- another function here that takes two parameter of which are  Int data types 
-addFunc :: Int -> Int -> IO ()
+addFunc :: Int -> Bool -> IO ()
 addFunc  firstNumber secondNumber = do 
      putStrLn("addition of "++ show firstNumber++" and "++ show secondNumber++" is :")
      print(firstNumber + secondNumber)
